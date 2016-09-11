@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view){
         Context context = getApplicationContext();
         CharSequence text="";
-        switch (view.getId()){
+        switch (view.getId()){ // got the idea of switch from stackoverflow 
             case (R.id.b1):
                 text="This button will launch my popular movies app!";
                 break;
